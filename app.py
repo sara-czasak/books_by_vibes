@@ -26,8 +26,4 @@ if st.session_state["vibe"] != "":
     except Exception as e:
         st.write("Sorry couldn't get a match...")
 
-
-    # Use Google Books API to search for books
-    # Try using the vibe as the search query and see what happens
-    # If that fails (high chance), search for a better way
     # Try, try again and don't give up on this one!
